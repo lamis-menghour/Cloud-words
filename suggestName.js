@@ -43,7 +43,7 @@ function checkifexist(name, nameWord) {
 
 
 setInterval(tagCloud, 1500);
-var url = "http://sheordatabase.pythonanywhere.com/Cloud_Word_lamis/"
+var url = "https://sheordatabase.pythonanywhere.com/Cloud_Word_lamis/"
 credentials = btoa("ELLabs:123jijel");
 
 
@@ -151,7 +151,7 @@ function submitName() {
                     nameId = Json[nameIndex].cloud_word_id;
                     console.log("name exist ", nameFreq)
 
-                    fetch(`http://sheordatabase.pythonanywhere.com/Cloud_Word_lamis/${nameId}`,
+                    fetch(`https://sheordatabase.pythonanywhere.com/Cloud_Word_lamis/${nameId}`,
                         {
                             method: "PUT",
                             headers: {
