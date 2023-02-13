@@ -1,0 +1,76 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* background: rgb(238, 216, 230);
+    background: linear-gradient(90deg, rgba(238, 216, 230, 1) 0%, rgba(222, 158, 209, 0.700717787114846) 50%, rgba(238, 216, 230, 1) 100%); */
+    background-image: url(pink-balloons.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+}
+
+
+.card.col-3 {
+    position: relative;
+    top: 10px;
+    left: 40%;
+    display: block;
+    width: max-content;
+    /* height: min-content; */
+    /* border: 3px solid black; */
+}
+
+
+/* .img-1 {
+    position: absolute;
+} */
+
+
+.img-2 {
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 100px;
+    position: relative;
+    left: 20%;
+}
+
+
+form {
+    display: inline;
+}
+
+input[type = text]{
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+input[type = button]{
+    cursor: pointer;
+    background-color: #dd9595d2;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type = button]:hover{
+    background-color: #e08787;
+
+}
+
+#suggestNameCloud {
+    /* border: 3px solid #d29b9b; */
+    height: 90%;
+    width: 100%;
+    /* position: absolute;
+    left: 5%; */
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's a girl!</title>
+    <link rel="icon" type="image/x-icon" href="GIRL.png">
+
+
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-tag-cloud.min.js"></script>
+    <link href="suggestNameCloud.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- <img class="img-1" src="a08fc0791d600b7dea1601a8e537d554.jpg"> -->
+    <div class="card col-3">
+        <img class="img-2" src="baby.png">
+        <br>
+        <form>
+            <input class="form-control" type="text" id="SugName" name="sugName" oninput="validationName()"
+                placeholder="Enter a girl name" autofocus>
+            <input type="button" value="Suggest" onclick="submitName()">
+        </form>
+        <p id="nameValidation"></p>
+    </div>
+
+    <div id="suggestNameCloud"></div>
+
+</body>
+
+</html>
+<script src="suggestName.js"></script>
