@@ -1,5 +1,6 @@
 html,
-body {
+body ,
+.container.col-sm-12.col-xl-12{
     width: 100%;
     height: 100%;
     margin: 0;
@@ -7,37 +8,32 @@ body {
 }
 
 
-body {
-    /* background: rgb(238, 216, 230);
-    background: linear-gradient(90deg, rgba(238, 216, 230, 1) 0%, rgba(222, 158, 209, 0.700717787114846) 50%, rgba(238, 216, 230, 1) 100%); */
+.container.col-sm-12.col-xl-12 {
     background-image: url(pink-balloons.png);
     background-repeat: no-repeat;
     background-size: cover; 
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.card.col-3 {
+.card.col-sm-3.col-xl-3 {
     position: relative;
-    top: 10px;
-    left: 40%;
-    display: block;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
     width: max-content;
-    /* height: min-content; */
-    /* border: 3px solid black; */
+    height: max-content;
 }
 
-
-/* .img-1 {
-    position: absolute;
-} */
 
 
 .img-2 {
-    align-items: center;
-    justify-content: center;
     width: max-content;
-    height: 100px;
+    height: 110px;
     position: relative;
     left: 20%;
 }
@@ -52,7 +48,6 @@ input[type = text]{
     color: black;
     border-radius: 5px;
     padding: 5px;
-
 }
 
 input[type = button]{
@@ -64,13 +59,10 @@ input[type = button]{
 
 input[type = button]:hover{
     background-color: #e08787;
-
 }
 
-#suggestNameCloud {
-    /* border: 3px solid #d29b9b; */
-    height: 90%;
-    width: 100%;
-    /* position: absolute;
-    left: 5%; */
+#suggestNameCloud.col-sm-12.col-xl-12 {
+    border: #e08787 solid 4px;
+    height: 80%;
+    width: 90%;
 }
